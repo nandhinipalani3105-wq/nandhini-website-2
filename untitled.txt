@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nandhini P – Portfolio</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{
+    font-family:'Poppins',sans-serif;
+    background:url('https://images.unsplash.com/photo-1522337660859-02fbefca4702?auto=format&fit=crop&w=1500&q=80')
+              no-repeat center center fixed;
+    background-size:cover;
+    color:#03396c;
+  }
+  .overlay{
+    background:rgba(173,216,230,0.88);
+    min-height:100vh;
+    padding:40px 20px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+  }
+  .photo{
+    width:160px;height:160px;
+    border-radius:50%;
+    background:url('https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=400&q=80')
+              center/cover;
+    border:4px solid #fff;
+    margin:20px auto;
+    box-shadow:0 0 10px rgba(0,0,0,0.4);
+  }
+  h1{font-size:2.4rem;margin-bottom:8px;text-shadow:1px 1px 4px #fff;}
+  h2{font-size:1.3rem;margin-bottom:20px;font-weight:normal;}
+  h3{font-size:1.4rem;margin:25px 0 10px;font-weight:600;}
+  p{font-size:1rem;max-width:500px;margin-bottom:30px;}
+  footer{margin-top:40px;font-size:0.9rem;color:#03396c;}
+</style>
+</head>
+<body>
+  <div class="overlay">
+    <div class="photo"></div>
+    <h1>Hi I am Nandhini 💕</h1>
+    <h2>Welcome to my page</h2>
+    <h2>B.Tech in Computer Science and Engineering</h2>
+
+    <h3>Projects</h3>
+    <p>No projects to show yet—exciting things are coming soon!</p>
+
+    <footer>&copy; 2025 Nandhini P</footer>
+  </div>
+</body>
+</html>
